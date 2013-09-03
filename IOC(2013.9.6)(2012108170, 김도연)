@@ -1,0 +1,14 @@
+고급객체지향자바개발론(2013.9.3)(2012108170) -김도연-
+IOC(Inversion Of Control)이란? Spring FrameWork의 중요한 기능중의 하나이다. 
+
+이 말은 기존의 개발자가 객체의 생성 소멸 (C++ 에서의 new에 의한 활당과 해제)를 관리하였다면 이러한 객체의 소멸과 관리를 Container에서 모두 해주는 것이다. 즉,
+
+객체에 대한 제어권을 FrameWork에서 관리하는 것이다. 
+
+어떻게 본다면 개발자가 제어권을 가지지 못해서 발생하는 문제가 있을수도 있지만 객체의 생성과 해제에 대해서 개발자가 
+
+전혀 신경 쓰지 않고 적절한 Bean 설정과 DL, DI 설정만으로 훌룡한 APP의 개발이 가능해 지는것에 대해서는 편리할 수도 있다.
+
+IOC는 크게 Dependency Lookup과 Dependency Injection을 통하여 이루어 진다. 
+
+DI는 다시 Setter Injection, Constructor Injection,Metthod Injection으로 나누어진다.
